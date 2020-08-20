@@ -1,0 +1,29 @@
+{
+  "name": "teste-linx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "scripts": {
+    "test": "NODE_ENV=TEST mocha --timeout 2000 --exit",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^26.4.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "date-fns": "^2.15.0",
+    "express": "^4.17.1",
+    "mockdate": "^3.0.2"
+  }
+}
